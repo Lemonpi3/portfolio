@@ -1,6 +1,13 @@
 # Agustin_Portfolio
 Data Science Portafolio
 
+### Project 1: Steam-data-EDA-and-Score-Predictor
+  Summary: Exploratory data analysis of Steam games from the store page and a model that will predict the score of new games.
+  
+  ![](/images/tag_representation.png)
+  
+  [Github Link](https://github.com/Lemonpi3/Steam-data-EDA-and-Score-Predictor)
+  
 ### Project 1: Heart Failure Prediction
   Summary: Analysing the Heart Failure Prediction Dataset from Kaggle and building a model that predicts a heart disease.
   
@@ -23,3 +30,5 @@ Data Science Portafolio
   [Github Link](https://github.com/Lemonpi3/Churn-predict)
   
   [Kaggle Link](https://www.kaggle.com/agustinlehmann/churn-preddict?scriptVersionId=82541841)
+  
+ 
