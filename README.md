@@ -8,7 +8,7 @@ Data Science Portafolio
   
   [Github Link](https://github.com/Lemonpi3/Steam-data-EDA-and-Score-Predictor)
   
-### Project 1: Heart Failure Prediction
+### Project 2: Heart Failure Prediction
   Summary: Analysing the Heart Failure Prediction Dataset from Kaggle and building a model that predicts a heart disease.
   
   ![](/images/HearthFailure1.png)
@@ -17,12 +17,12 @@ Data Science Portafolio
   
   [Kaggle Link](https://www.kaggle.com/agustinlehmann/heart-failure-predictor)
   
-### Project 2: Song Lyrics generator with RNN 
+### Project 3: Song Lyrics generator with RNN 
   Summary: Lyrics generator RNN made with tensorflow using lyrics scrapped from azlyrics.com.
   
   [Github Link](https://github.com/Lemonpi3/Lyrics-Generator)
   
-### Project 3: Churn Predict
+### Project 4: Churn Predict
   Summary: Predicting if a client is going to churn using data from a Kaggle dataset.
   
   ![](/images/Churn.png)
