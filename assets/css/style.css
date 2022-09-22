@@ -233,7 +233,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../images/hero.png") top center;
+  background: url("../images/DALL·E 2022-08-31 16.56.26.png") top center;
   background-size: cover;
 }
 
@@ -1110,4 +1110,185 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.skillsGrid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 10em; */
+  gap: 20px;
+  grid-auto-rows: auto;
+  height: 100vh;
+}
+
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills h2{
+  margin-bottom: 2em;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Small Screens max width 640px */
+@media screen and (max-width: 640px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+
+  
+.skillsGrid img {
+  height: 75px;
+  width: 75px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: top;
+  align-items: top;
+}
+
+  /* Blog posts section */
+  .blog-container{
+    height: auto;
+    overflow: hidden;
+  }
+  
+  
+  .blogPost img{
+    max-height: 10em;
+    max-width: 20em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+
+}
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (min-width: 641px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+
+  
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* BLOG POSTS */
+
+.blog-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  height: auto;
+}
+
+.blogPost {
+  width: 300px;
+  grid-column: 1/2;
+}
+
+
+.blogPost img{
+  max-height: 10em;
+  max-width: 20em;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+}
+/* Large Screens min width 1080px change to 8 columns */
+
+@media screen and (min-width: 1080px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 50px;
+    grid-auto-rows: auto;
+    height: auto
+  }
+
+  
+.skillsGrid img {
+  height: 150px;
+  width: 150px;
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* BLOG POSTS */
+
+.blog-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  height: auto;
+}
+
+.blogPost {
+  width: 400px;
+  grid-column: 1/2;
+}
+
+
+.blogPost img{
+  max-height: 10em;
+  max-width: 20em;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
 }
