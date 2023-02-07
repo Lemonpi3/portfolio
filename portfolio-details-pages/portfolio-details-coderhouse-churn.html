@@ -108,9 +108,9 @@
               <ul>
                 <li><strong>Category</strong>: Data Science, EDA, model creation, model deployment</li>
                 <li><strong>Topic</strong>:Telecomunications, Service analisis</li>
-                <li><strong>Status</strong>: Ongoing</li>
+                <li><strong>Status</strong>: Finished</li>
                 <li><strong>Project date</strong>: Aug 1, 2022</li>
-                <li><strong>Project App Link</strong>: <a href="https://lemonpi3-coderhouse-churn-app-app-oopeoj.streamlit.app/">Streamlit App</a></li>
+                <li><strong>Project App Link</strong>: <a href="https://lemonpi3-coderhouse-churn-app-app-7t76yk.streamlit.app/">Streamlit App</a></li>
                 <li><strong>Project Notebook Link</strong>: <a href="https://colab.research.google.com/drive/1roIA3LR2fZoZzlAq2NSs2g5gWIRLzFKI?usp=sharing">Google Colab</a></li>
                 <li><strong>Project Github Link</strong>: <a href="https://github.com/Lemonpi3/coderhouse-churn-app">Github Repository</a></li>
               </ul>
@@ -120,23 +120,29 @@
           <div class="portfolio-description">
             <h2>Telecomunications Churn predict</h2>
             <p>
-              This is one of my Coderhouse proyects, it's not fully finished yet (I'm still doing the final touches), 
+              This is my Coderhouse final proyect, 
               the main notebook is in spanish. 
             </p>
             <p>
               I analized the dataset of a telecomunications company to get insights about how bad, 
-              which areas and what was causing the churn problem for the company. Then I built 2 models concatenated with each other
-              to help with their churn problem. 
+              which areas and what was causing the churn problem for the company. Then I built 4 models diferent models to help their problem:
             </p>
-            <p>
-              One that predicts if a client is going to churn or not. And the other, if the 
-              first model predicts a churn, predicts the churn reason category (Competition, Dissatisfaction, Attitude, Price and Other).
-            </p>
+            <ul>
+              <li>A classification model that predicts if a client is going to churn or not.</li>
+              <li>A classification model that if the first model predicts a churn, predicts the churn reason category</li> 
+              <li>A regression model that predicts the total revenue of each user, with the goal of setting priorities on which users to focus
+                as well as proyecting the revenue of the quarter.
+              </li>
+              <li>A clustering model with the goal of giving a more customized service to the users and increasing the tenure.</li>
+            </ul>
             <p>
               I also made an app that contains the storytelling in a blog style and a canva presentation. 
             </p>
             <p>
-              The models are deployed in a flask api that uses a Sqllite database to store the clients data and the model predictions.
+              The models are deployed in a flask api that uses a Sqllite database to store the clients data and the model predictions as well as 
+              a single user demo in the app.
+            </p>
+            <p>
               As for the app itself I've made it using the streamlit library.
             </p>
           </div>
