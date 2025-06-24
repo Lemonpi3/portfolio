@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/css/style.css?v=<?= Date.now() ?>">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+<div>
+  <h1 class="titleText">RogueLike Power System</h1>
+  <div>
+    <h3 class="descriptionText">Project information</h3>
+    <ul>
+        <li class="descriptionText"><strong style="font-weight: bold; font-size: large;">Category</strong>: Unity, 2D</li>
+        <li class="descriptionText"><strong style="font-weight: bold; font-size: large;">Project date</strong>: 7 May, 2022</li>
+        <li class="descriptionText"><p><strong style="font-weight: bold; font-size: large;">Project Github</strong>: <a href="https://github.com/Lemonpi3/Roguelike-power-system">Link</a></p></li>
+    </ul>
+    <div class="carrusel-container">
+    <button class="carrusel-button left" onclick="scrollCarousel(-1)">&#10094;</button>
+
+    <div class="carrusel" id="carrusel">
+        <div class="carrusel-item">
+            <img src="assets/images/Roguelikedemo.jpg" alt="">
+        </div>
+        <div class="carrusel-item">
+            <img src="assets/images/roguelikepowers.jpg" alt="">
+        </div>
+        <div class="carrusel-item">
+            <img src="assets/images/roguelikepowersystem.jpg" alt="">
+        </div>
+    </div>
+      <button class="carrusel-button right" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+    <div class="descriptionText">
+        <p>
+            Generic roguelike powers system for 2D games that can also be easily adapted to 3D. Has lots of customization to create limitless powers using scriptable objects. 
+            Includes a small Vampire Survivor's like demo.
+        </p>
+        <p>You can find a small documentation inside the github repo.</p>
+    </div>
+   
+  </div>
+</div>
+
+</body>
+</html>
